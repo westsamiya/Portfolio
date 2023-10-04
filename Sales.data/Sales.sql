@@ -18,12 +18,14 @@ field(Month, "January","February","March","April",
 "May","June","July","August","September",
 "October","November","December");
 
- -- Product Sales per category by Month
-SELECT Month, `Product Category`, Total
+ -- Highest Selling Product per Month
+SELECT Month,`Sub Category`, TotalSales, GrossProfitMargin
 FROM 
 	(SELECT Month, `Product Category`, sum(Quantity) as Total, rank() OVER(PARTITION BY Month ORDER BY sum(Quantity) DESC) as rnk
+	(SELECT Month, `Sub Category`, sum(Quantity) as TotalSales, sum(Revenue-Cost)/sum(Revenue)*100 as GrossProfitMargin,
+    rank() OVER(PARTITION BY Month ORDER BY sum(Quantity) DESC) as rnk
 	FROM portfolio.sales2
-    GROUP BY Month, `Product Category`
+    GROUP BY Month, `Sub Category`
     ORDER BY Month ASC) as sub
 WHERE rnk = 1
 ORDER BY field(Month, "January","February","March","April",
