@@ -19,6 +19,7 @@ library(car)
 This project aims to examine the connection between high school academic performance and subsequent college success among a sample of 1000 students from an undisclosed college. The overall hypothesis is that students who excel in high school continue to excel academically in college. To examine this hypothesis, an array of statistical tests and analyses have been conducted on the data set, aiming to generate substantial evidence to either support or reject the null and alternate hypotheses.
 
 Null Hypothesis (Ho): There is no significant relationship between high school performance (measured by SAT percentile and high school GPA) and college success (measured by first-year college GPA).
+
 Alternate Hypothesis (Ha): There is a significant relationship between high school performance (measured by SAT percentile and high school GPA) and college success (measured by first-year college GPA).
 
 # Data 
@@ -143,6 +144,7 @@ For the interaction term 'I(sat_sum * hs_gpa)' in the regression model predictin
 # Conclusion
 
 Null Hypothesis (Ho): There is no significant relationship between high school performance (measured by SAT percentiles and high school GPAs) and college success (measured by first-year college GPAs).
+
 Alternate Hypothesis (Ha): There is a significant relationship between high school performance (measured by SAT percentiles and high school GPAs) and college success (measured by first-year college GPAs).
 
 Based on the analysis conducted there is strong evidence to support the alternate hypothesis that there is a significant relationship between high school performance (measured by SAT percentiles and high school GPAs) and college success (measured by first-year college GPAs).
