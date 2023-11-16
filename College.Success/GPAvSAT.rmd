@@ -20,7 +20,7 @@ This project aims to examine the connection between high school academic perform
 
 **Null Hypothesis (Ho): There is no significant relationship between high school performance (measured by SAT percentile and high school GPA) and college success (measured by first-year college GPA).**
 
-**Alternate Hypothesis (Ha): There is a significant relationship between high school performance (measured by SAT percentile and high school GPA) and college success (measured by first-year college GPA).**
+**Alternative Hypothesis (Ha): There is a significant relationship between high school performance (measured by SAT percentile and high school GPA) and college success (measured by first-year college GPA).**
 
 # Data 
 
@@ -145,12 +145,12 @@ For the interaction term 'I(sat_sum * hs_gpa)' in the regression model predictin
 
 **Null Hypothesis (Ho): There is no significant relationship between high school performance (measured by SAT percentiles and high school GPAs) and college success (measured by first-year college GPAs).**
 
-**Alternate Hypothesis (Ha): There is a significant relationship between high school performance (measured by SAT percentiles and high school GPAs) and college success (measured by first-year college GPAs).**
+**Alternative Hypothesis (Ha): There is a significant relationship between high school performance (measured by SAT percentiles and high school GPAs) and college success (measured by first-year college GPAs).**
 
-**Based on the analysis conducted there is strong evidence to support the alternate hypothesis that there is a significant relationship between high school performance (measured by SAT percentiles and high school GPAs) and college success (measured by first-year college GPAs).**
+**Based on the analysis conducted there is strong evidence to support the alternative hypothesis that there is a significant relationship between high school performance (measured by SAT percentiles and high school GPAs) and college success (measured by first-year college GPAs).**
 The key findings and evidence are summarized below:
 
-The analysis, focusing on Model 3 as the preferred model implies that there is a significant relationship between high school performance (measured by SAT percentiles and high school GPAs) and college success (measured by first-year college GPAs). Model 3 was chosen as the preferred model due to the significance of the interaction term in Model 2 and it's simplicity. Despite having comparable adjusted R-squared values and residual standard errors across all models, Model 3 stood out with a higher F-statistic and correlation coefficient, indicating a more overall fit. The assumption testing included testing for linearity by examining scatter plots, examining a histogram and a Q-Q plot to determine if residuals were nearly normal, residuals vs fitted plot to assess homoscedasticity, independence validations through the Durbin-Watson test, and the identification of outliers through a Residuals vs. Leverage and Cook's Distance Formula. All findings contributed to the validation of model 3. As a result the evidence from the analysis supports the existence of a significant relationship between high school performance and college success. The null hypothesis (Ho) of no significant relationship is rejected in favor of the alternate hypothesis (Ha). These findings contribute valuable insights into the predictive power of high school academic indicators on first-year college GPA.
+The analysis, focusing on Model 3 as the preferred model implies that there is a significant relationship between high school performance (measured by SAT percentiles and high school GPAs) and college success (measured by first-year college GPAs). Model 3 was chosen as the preferred model due to the significance of the interaction term in Model 2 and it's simplicity. Despite having comparable adjusted R-squared values and residual standard errors across all models, Model 3 stood out with a higher F-statistic and correlation coefficient, indicating a more overall fit. The assumption testing included testing for linearity by examining scatter plots, examining a histogram and a Q-Q plot to determine if residuals were nearly normal, residuals vs fitted plot to assess homoscedasticity, independence validations through the Durbin-Watson test, and the identification of outliers through a Residuals vs. Leverage and Cook's Distance Formula. All findings contributed to the validation of model 3. As a result the evidence from the analysis supports the existence of a significant relationship between high school performance and college success. The null hypothesis (Ho) of no significant relationship is rejected in favor of the alternative hypothesis (Ha). These findings contribute valuable insights into the predictive power of high school academic indicators on first-year college GPA.
 
 # References
 
