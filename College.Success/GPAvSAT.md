@@ -11,10 +11,11 @@ hypotheses.
 
 Null Hypothesis (Ho): There is no significant relationship between high
 school performance (measured by SAT percentile and high school GPA) and
-college success (measured by first-year college GPA). Alternate
-Hypothesis (Ha): There is a significant relationship between high school
-performance (measured by SAT percentile and high school GPA) and college
-success (measured by first-year college GPA).
+college success (measured by first-year college GPA).
+
+Alternate Hypothesis (Ha): There is a significant relationship between
+high school performance (measured by SAT percentile and high school GPA)
+and college success (measured by first-year college GPA).
 
 # Data
 
@@ -210,7 +211,7 @@ significant predictor in this model.
     durbinWatsonTest(mod3)
 
     ##  lag Autocorrelation D-W Statistic p-value
-    ##    1     -0.01142755      2.022409   0.732
+    ##    1     -0.01142755      2.022409    0.77
     ##  Alternative hypothesis: rho != 0
 
     cooks3 = cooks.distance(mod3)
@@ -314,10 +315,11 @@ and high school GPA on first-year college GPA falls within the range of
 
 Null Hypothesis (Ho): There is no significant relationship between high
 school performance (measured by SAT percentiles and high school GPAs)
-and college success (measured by first-year college GPAs). Alternate
-Hypothesis (Ha): There is a significant relationship between high school
-performance (measured by SAT percentiles and high school GPAs) and
-college success (measured by first-year college GPAs).
+and college success (measured by first-year college GPAs).
+
+Alternate Hypothesis (Ha): There is a significant relationship between
+high school performance (measured by SAT percentiles and high school
+GPAs) and college success (measured by first-year college GPAs).
 
 Based on the analysis conducted there is strong evidence to support the
 alternate hypothesis that there is a significant relationship between
